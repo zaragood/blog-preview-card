@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "myFont";
+    src: url("https://fonts.google.com/specimen/Figtree");
+}
+
+html {
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+
+.blog {
+    max-width: 300px;
+}
+.blog p:nth-child(4){
+    color: hsl(0, 0%, 50%);
+    
+    line-height: 25px;
+}
+.blog h2 {
+    font-weight: 700;
+    color: hsl(47, 88%, 63%);
+}
+.blog {
+    margin-top: 24px;
+}
+.blog span {
+    background-color: hsl(47, 88%, 63%);
+    padding: 7px 15px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.profile img {
+    height: 30px;
+    width: 30px;
+}
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow:15px 15px hsl(0, 0%, 7%);
+    border-radius: 20px;
+}
+.card svg {
+    display: block;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
